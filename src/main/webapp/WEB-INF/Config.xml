@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration><!-- DB설정(Connection) -->
+   
+    <typeAliases>
+      <typeAlias type="sist.com.bean.MemberBean" alias="Member"/>
+      <typeAlias type="sist.com.bean.ZipCodeBean" alias="Zipcode"/>
+      <typeAlias type="sist.com.bean.AirportBean" alias="Airport"/>
+      <typeAlias type="sist.com.bean.AirScheduleBean" alias="AirportSchedule"/>
+      <typeAlias type="sist.com.bean.AppointmentBean" alias="Appointment"/>
+      <typeAlias type="sist.com.bean.FellowBean" alias="Fellow"/>
+    </typeAliases>
+    
+    <mappers>
+      <mapper resource="sist/com/dao/memberMapper.xml"/>
+      <mapper resource="sist/com/dao/airLineMapper.xml"/>
+      <mapper resource="sist/com/dao/airAdFilMapper.xml"/>
+    </mappers>
+</configuration>
+
+
+
+
+
+

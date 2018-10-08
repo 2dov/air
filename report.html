@@ -1,0 +1,1014 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<style>
+table {width:100%;}
+th {background-color:#ccc;}
+div {margin-bottom:30px;}
+</style>
+</head>
+<body>
+<div>
+<table border=1>
+<tr>
+<th colSpan="1">엔티티 타입명</th>
+<td colSpan="1">항공사</td>
+<th colSpan="1">작성일</th>
+<td colSpan="1">2018  9 20</td>
+</tr>
+<tr>
+<th colSpan="1">테이블명</th>
+<td colSpan="1">AIRLINE</td>
+<th colSpan="1">작성자</th>
+<td colSpan="1">eXERD</td>
+</tr>
+<tr>
+<th colSpan="1">테이블 설명</th>
+<td colSpan="3">항공사</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<th colSpan="1">번호</th>
+<th colSpan="1">컬럼명</th>
+<th colSpan="1">속성명</th>
+<th colSpan="1">도메인</th>
+<th colSpan="1">데이터 타입</th>
+<th colSpan="1">NULL 여부</th>
+<th colSpan="1">기본값</th>
+<th colSpan="1">KEY</th>
+</tr>
+<tr>
+<td colSpan="1">1</td>
+<td colSpan="1">AL_NO</td>
+<td colSpan="1">항공사코드</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">PK</td>
+</tr>
+<tr>
+<td colSpan="1">2</td>
+<td colSpan="1">NAME</td>
+<td colSpan="1">항공사명</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+</table>
+</div>
+<div>
+<table border=1>
+<tr>
+<th colSpan="1">엔티티 타입명</th>
+<td colSpan="1">비행기</td>
+<th colSpan="1">작성일</th>
+<td colSpan="1">2018  9 20</td>
+</tr>
+<tr>
+<th colSpan="1">테이블명</th>
+<td colSpan="1">AIRPLANE</td>
+<th colSpan="1">작성자</th>
+<td colSpan="1">eXERD</td>
+</tr>
+<tr>
+<th colSpan="1">테이블 설명</th>
+<td colSpan="3">비행기</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<th colSpan="1">번호</th>
+<th colSpan="1">컬럼명</th>
+<th colSpan="1">속성명</th>
+<th colSpan="1">도메인</th>
+<th colSpan="1">데이터 타입</th>
+<th colSpan="1">NULL 여부</th>
+<th colSpan="1">기본값</th>
+<th colSpan="1">KEY</th>
+</tr>
+<tr>
+<td colSpan="1">1</td>
+<td colSpan="1">P_NO</td>
+<td colSpan="1">비행기코드</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">PK</td>
+</tr>
+<tr>
+<td colSpan="1">2</td>
+<td colSpan="1">AL_NO</td>
+<td colSpan="1">항공사코드</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">FK</td>
+</tr>
+<tr>
+<td colSpan="1">3</td>
+<td colSpan="1">SEAT</td>
+<td colSpan="1">좌석수</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(10)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+</table>
+</div>
+<div>
+<table border=1>
+<tr>
+<th colSpan="1">엔티티 타입명</th>
+<td colSpan="1">공항</td>
+<th colSpan="1">작성일</th>
+<td colSpan="1">2018  9 20</td>
+</tr>
+<tr>
+<th colSpan="1">테이블명</th>
+<td colSpan="1">AIRPORT</td>
+<th colSpan="1">작성자</th>
+<td colSpan="1">eXERD</td>
+</tr>
+<tr>
+<th colSpan="1">테이블 설명</th>
+<td colSpan="3">공항</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<th colSpan="1">번호</th>
+<th colSpan="1">컬럼명</th>
+<th colSpan="1">속성명</th>
+<th colSpan="1">도메인</th>
+<th colSpan="1">데이터 타입</th>
+<th colSpan="1">NULL 여부</th>
+<th colSpan="1">기본값</th>
+<th colSpan="1">KEY</th>
+</tr>
+<tr>
+<td colSpan="1">1</td>
+<td colSpan="1">AP_NO</td>
+<td colSpan="1">공항코드</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">PK</td>
+</tr>
+<tr>
+<td colSpan="1">2</td>
+<td colSpan="1">NAME</td>
+<td colSpan="1">공항명</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">3</td>
+<td colSpan="1">LOCATION</td>
+<td colSpan="1">위치</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">4</td>
+<td colSpan="1">NATION</td>
+<td colSpan="1">국적</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+</table>
+</div>
+<div>
+<table border=1>
+<tr>
+<th colSpan="1">엔티티 타입명</th>
+<td colSpan="1">예매정보</td>
+<th colSpan="1">작성일</th>
+<td colSpan="1">2018  9 20</td>
+</tr>
+<tr>
+<th colSpan="1">테이블명</th>
+<td colSpan="1">APPOINTMENT</td>
+<th colSpan="1">작성자</th>
+<td colSpan="1">eXERD</td>
+</tr>
+<tr>
+<th colSpan="1">테이블 설명</th>
+<td colSpan="3">예매정보</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<th colSpan="1">번호</th>
+<th colSpan="1">컬럼명</th>
+<th colSpan="1">속성명</th>
+<th colSpan="1">도메인</th>
+<th colSpan="1">데이터 타입</th>
+<th colSpan="1">NULL 여부</th>
+<th colSpan="1">기본값</th>
+<th colSpan="1">KEY</th>
+</tr>
+<tr>
+<td colSpan="1">1</td>
+<td colSpan="1">A_NO</td>
+<td colSpan="1">예매번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">PK</td>
+</tr>
+<tr>
+<td colSpan="1">2</td>
+<td colSpan="1">S_NO</td>
+<td colSpan="1">운항번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">FK</td>
+</tr>
+<tr>
+<td colSpan="1">3</td>
+<td colSpan="1">NO</td>
+<td colSpan="1">회원번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(10)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">FK</td>
+</tr>
+</table>
+</div>
+<div>
+<table border=1>
+<tr>
+<th colSpan="1">엔티티 타입명</th>
+<td colSpan="1">동승자</td>
+<th colSpan="1">작성일</th>
+<td colSpan="1">2018  9 20</td>
+</tr>
+<tr>
+<th colSpan="1">테이블명</th>
+<td colSpan="1">FELLOW</td>
+<th colSpan="1">작성자</th>
+<td colSpan="1">eXERD</td>
+</tr>
+<tr>
+<th colSpan="1">테이블 설명</th>
+<td colSpan="3">동승자</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<th colSpan="1">번호</th>
+<th colSpan="1">컬럼명</th>
+<th colSpan="1">속성명</th>
+<th colSpan="1">도메인</th>
+<th colSpan="1">데이터 타입</th>
+<th colSpan="1">NULL 여부</th>
+<th colSpan="1">기본값</th>
+<th colSpan="1">KEY</th>
+</tr>
+<tr>
+<td colSpan="1">1</td>
+<td colSpan="1">A_NO</td>
+<td colSpan="1">예매번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">PK, FK</td>
+</tr>
+<tr>
+<td colSpan="1">2</td>
+<td colSpan="1">FELLOWER_NAME_HAN</td>
+<td colSpan="1">탑승자한글이름</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">3</td>
+<td colSpan="1">FELLOWER_LASTNAME</td>
+<td colSpan="1">탑승자성</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">4</td>
+<td colSpan="1">FELLOWER_FIRSTNAME</td>
+<td colSpan="1">탑승자이름</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+</table>
+</div>
+<div>
+<table border=1>
+<tr>
+<th colSpan="1">엔티티 타입명</th>
+<td colSpan="1">회원정보</td>
+<th colSpan="1">작성일</th>
+<td colSpan="1">2018  9 20</td>
+</tr>
+<tr>
+<th colSpan="1">테이블명</th>
+<td colSpan="1">MEMBER</td>
+<th colSpan="1">작성자</th>
+<td colSpan="1">eXERD</td>
+</tr>
+<tr>
+<th colSpan="1">테이블 설명</th>
+<td colSpan="3">회원정보</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<th colSpan="1">번호</th>
+<th colSpan="1">컬럼명</th>
+<th colSpan="1">속성명</th>
+<th colSpan="1">도메인</th>
+<th colSpan="1">데이터 타입</th>
+<th colSpan="1">NULL 여부</th>
+<th colSpan="1">기본값</th>
+<th colSpan="1">KEY</th>
+</tr>
+<tr>
+<td colSpan="1">1</td>
+<td colSpan="1">NO</td>
+<td colSpan="1">회원번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(10)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">PK</td>
+</tr>
+<tr>
+<td colSpan="1">2</td>
+<td colSpan="1">ZIPCODE</td>
+<td colSpan="1">우편번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(7)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">FK</td>
+</tr>
+<tr>
+<td colSpan="1">3</td>
+<td colSpan="1">ID</td>
+<td colSpan="1">아이디</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">4</td>
+<td colSpan="1">PASSWORD</td>
+<td colSpan="1">비밀번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">5</td>
+<td colSpan="1">NAME</td>
+<td colSpan="1">이름</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">6</td>
+<td colSpan="1">ADDRESS</td>
+<td colSpan="1">주소</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(50)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">7</td>
+<td colSpan="1">TEL</td>
+<td colSpan="1">전화</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(30)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">8</td>
+<td colSpan="1">CP</td>
+<td colSpan="1">휴대전화</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(30)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">9</td>
+<td colSpan="1">EMAIL</td>
+<td colSpan="1">이메일</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(30)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">10</td>
+<td colSpan="1">BIRTHDAY</td>
+<td colSpan="1">생년월일</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">11</td>
+<td colSpan="1">ADMIN</td>
+<td colSpan="1">권한</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(10)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+</table>
+</div>
+<div>
+<table border=1>
+<tr>
+<th colSpan="1">엔티티 타입명</th>
+<td colSpan="1">마일리지</td>
+<th colSpan="1">작성일</th>
+<td colSpan="1">2018  9 20</td>
+</tr>
+<tr>
+<th colSpan="1">테이블명</th>
+<td colSpan="1">MILEAGE</td>
+<th colSpan="1">작성자</th>
+<td colSpan="1">eXERD</td>
+</tr>
+<tr>
+<th colSpan="1">테이블 설명</th>
+<td colSpan="3">마일리지</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<th colSpan="1">번호</th>
+<th colSpan="1">컬럼명</th>
+<th colSpan="1">속성명</th>
+<th colSpan="1">도메인</th>
+<th colSpan="1">데이터 타입</th>
+<th colSpan="1">NULL 여부</th>
+<th colSpan="1">기본값</th>
+<th colSpan="1">KEY</th>
+</tr>
+<tr>
+<td colSpan="1">1</td>
+<td colSpan="1">NO</td>
+<td colSpan="1">회원번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(10)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">FK</td>
+</tr>
+<tr>
+<td colSpan="1">2</td>
+<td colSpan="1">MILE</td>
+<td colSpan="1">마일리지</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(10)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+</table>
+</div>
+<div>
+<table border=1>
+<tr>
+<th colSpan="1">엔티티 타입명</th>
+<td colSpan="1">공지사항</td>
+<th colSpan="1">작성일</th>
+<td colSpan="1">2018  9 20</td>
+</tr>
+<tr>
+<th colSpan="1">테이블명</th>
+<td colSpan="1">NOTICEBOARD</td>
+<th colSpan="1">작성자</th>
+<td colSpan="1">eXERD</td>
+</tr>
+<tr>
+<th colSpan="1">테이블 설명</th>
+<td colSpan="3">공지사항</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<th colSpan="1">번호</th>
+<th colSpan="1">컬럼명</th>
+<th colSpan="1">속성명</th>
+<th colSpan="1">도메인</th>
+<th colSpan="1">데이터 타입</th>
+<th colSpan="1">NULL 여부</th>
+<th colSpan="1">기본값</th>
+<th colSpan="1">KEY</th>
+</tr>
+<tr>
+<td colSpan="1">1</td>
+<td colSpan="1">NO</td>
+<td colSpan="1">글번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(5)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">PK</td>
+</tr>
+<tr>
+<td colSpan="1">2</td>
+<td colSpan="1">TITLE</td>
+<td colSpan="1">제목</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(30)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">3</td>
+<td colSpan="1">WRITER</td>
+<td colSpan="1">작성자</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(10)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">FK</td>
+</tr>
+<tr>
+<td colSpan="1">4</td>
+<td colSpan="1">PASSWORD</td>
+<td colSpan="1">비밀번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(30)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">5</td>
+<td colSpan="1">CONTENTS</td>
+<td colSpan="1">내용</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">CLOB</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">6</td>
+<td colSpan="1">CATEGORY</td>
+<td colSpan="1">카테고리</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">7</td>
+<td colSpan="1">REGDATE</td>
+<td colSpan="1">작성일</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">DATE</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+</table>
+</div>
+<div>
+<table border=1>
+<tr>
+<th colSpan="1">엔티티 타입명</th>
+<td colSpan="1">1:1 질문</td>
+<th colSpan="1">작성일</th>
+<td colSpan="1">2018  9 20</td>
+</tr>
+<tr>
+<th colSpan="1">테이블명</th>
+<td colSpan="1">QNABOARD</td>
+<th colSpan="1">작성자</th>
+<td colSpan="1">eXERD</td>
+</tr>
+<tr>
+<th colSpan="1">테이블 설명</th>
+<td colSpan="3">1:1 질문</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<th colSpan="1">번호</th>
+<th colSpan="1">컬럼명</th>
+<th colSpan="1">속성명</th>
+<th colSpan="1">도메인</th>
+<th colSpan="1">데이터 타입</th>
+<th colSpan="1">NULL 여부</th>
+<th colSpan="1">기본값</th>
+<th colSpan="1">KEY</th>
+</tr>
+<tr>
+<td colSpan="1">1</td>
+<td colSpan="1">NO</td>
+<td colSpan="1">글번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(5)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">PK</td>
+</tr>
+<tr>
+<td colSpan="1">2</td>
+<td colSpan="1">TITLE</td>
+<td colSpan="1">제목</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(30)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">3</td>
+<td colSpan="1">WRITER</td>
+<td colSpan="1">작성자</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(10)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">FK</td>
+</tr>
+<tr>
+<td colSpan="1">4</td>
+<td colSpan="1">PASSWORD</td>
+<td colSpan="1">비밀번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(30)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">5</td>
+<td colSpan="1">CONTENTS</td>
+<td colSpan="1">내용</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">CLOB</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">6</td>
+<td colSpan="1">CATEGORY</td>
+<td colSpan="1">카테고리</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">7</td>
+<td colSpan="1">FILENAME</td>
+<td colSpan="1">첨부파일</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">8</td>
+<td colSpan="1">REGDATE</td>
+<td colSpan="1">작성일</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">DATE</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">9</td>
+<td colSpan="1">REF</td>
+<td colSpan="1">그룹번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(5)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">10</td>
+<td colSpan="1">STEP</td>
+<td colSpan="1">스텝번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(5)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">11</td>
+<td colSpan="1">LEV</td>
+<td colSpan="1">레벨번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(5)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">12</td>
+<td colSpan="1">PNUM</td>
+<td colSpan="1">부모번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(5)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">13</td>
+<td colSpan="1">REPLY</td>
+<td colSpan="1">답글수</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(5)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+</table>
+</div>
+<div>
+<table border=1>
+<tr>
+<th colSpan="1">엔티티 타입명</th>
+<td colSpan="1">운항리스트</td>
+<th colSpan="1">작성일</th>
+<td colSpan="1">2018  9 20</td>
+</tr>
+<tr>
+<th colSpan="1">테이블명</th>
+<td colSpan="1">SCHEDULE</td>
+<th colSpan="1">작성자</th>
+<td colSpan="1">eXERD</td>
+</tr>
+<tr>
+<th colSpan="1">테이블 설명</th>
+<td colSpan="3">운항리스트</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<th colSpan="1">번호</th>
+<th colSpan="1">컬럼명</th>
+<th colSpan="1">속성명</th>
+<th colSpan="1">도메인</th>
+<th colSpan="1">데이터 타입</th>
+<th colSpan="1">NULL 여부</th>
+<th colSpan="1">기본값</th>
+<th colSpan="1">KEY</th>
+</tr>
+<tr>
+<td colSpan="1">1</td>
+<td colSpan="1">S_NO</td>
+<td colSpan="1">운항번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">PK</td>
+</tr>
+<tr>
+<td colSpan="1">2</td>
+<td colSpan="1">P_NO</td>
+<td colSpan="1">비행기코드</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">FK</td>
+</tr>
+<tr>
+<td colSpan="1">3</td>
+<td colSpan="1">AL_NO</td>
+<td colSpan="1">항공사코드</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">FK</td>
+</tr>
+<tr>
+<td colSpan="1">4</td>
+<td colSpan="1">AP_NO</td>
+<td colSpan="1">출발공항코드</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">FK</td>
+</tr>
+<tr>
+<td colSpan="1">5</td>
+<td colSpan="1">AP_NO2</td>
+<td colSpan="1">도착공항코드</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">FK</td>
+</tr>
+<tr>
+<td colSpan="1">6</td>
+<td colSpan="1">DEPARTTIME</td>
+<td colSpan="1">출발시간</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">7</td>
+<td colSpan="1">ARRIVALTIME</td>
+<td colSpan="1">도착시간</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">8</td>
+<td colSpan="1">LEAD</td>
+<td colSpan="1">소요시간</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(20)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">9</td>
+<td colSpan="1">COST</td>
+<td colSpan="1">가격</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(10)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">10</td>
+<td colSpan="1">SEAT</td>
+<td colSpan="1">좌석수</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">NUMBER(10)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+</table>
+</div>
+<div>
+<table border=1>
+<tr>
+<th colSpan="1">엔티티 타입명</th>
+<td colSpan="1">우편번호</td>
+<th colSpan="1">작성일</th>
+<td colSpan="1">2018  9 20</td>
+</tr>
+<tr>
+<th colSpan="1">테이블명</th>
+<td colSpan="1">ZIPCODE</td>
+<th colSpan="1">작성자</th>
+<td colSpan="1">eXERD</td>
+</tr>
+<tr>
+<th colSpan="1">테이블 설명</th>
+<td colSpan="3">우편번호</td>
+</tr>
+</table>
+<table border=1>
+<tr>
+<th colSpan="1">번호</th>
+<th colSpan="1">컬럼명</th>
+<th colSpan="1">속성명</th>
+<th colSpan="1">도메인</th>
+<th colSpan="1">데이터 타입</th>
+<th colSpan="1">NULL 여부</th>
+<th colSpan="1">기본값</th>
+<th colSpan="1">KEY</th>
+</tr>
+<tr>
+<td colSpan="1">1</td>
+<td colSpan="1">ZIPCODE</td>
+<td colSpan="1">우편번호</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(7)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">PK</td>
+</tr>
+<tr>
+<td colSpan="1">2</td>
+<td colSpan="1">SIDO</td>
+<td colSpan="1">시도</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(4)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">3</td>
+<td colSpan="1">GUGUN</td>
+<td colSpan="1">구군</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(15)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">4</td>
+<td colSpan="1">DONG</td>
+<td colSpan="1">DONG</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(52)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">5</td>
+<td colSpan="1">BUNJI</td>
+<td colSpan="1">번지</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(17)</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+<tr>
+<td colSpan="1">6</td>
+<td colSpan="1">SEQ</td>
+<td colSpan="1">시퀀스</td>
+<td colSpan="1">N/A</td>
+<td colSpan="1">VARCHAR2(7)</td>
+<td colSpan="1">NOT NULL</td>
+<td colSpan="1">&nbsp;</td>
+<td colSpan="1">&nbsp;</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
